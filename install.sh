@@ -34,7 +34,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # 安装vim插件
 echo "-->install vim plugins..."
-vim -c PluginInstall -c q -c q
+#vim -c PluginInstall -c q -c q
+vim +PluginInstall +qall
 cd /root/.vim/bundle/YouCompleteMe/ && /root/.pyenv/versions/3.5.2/bin/python3 install.py --clang-complete
 
 # 安装javascript语法检查
