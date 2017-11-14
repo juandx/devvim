@@ -14,3 +14,9 @@ chmod +x build.sh
 chmod +x install.sh
 ./build.sh
 ```
+
+使用:
+```
+docker run -d /home:/mnt -it docker.io/schnauzers/vim tail -f /dev/null
+docker exec -it docker.io/schnauzers/vim bash
+```
