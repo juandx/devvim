@@ -9,6 +9,7 @@ vim dockerfile for wenbin's vim
 制作：
 ```
 git clone https://github.com/juandx/devvim.git
+cd devvim/
 chmod +x build.sh
 chmod +x install.sh
 ./build.sh
