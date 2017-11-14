@@ -17,6 +17,6 @@ chmod +x install.sh
 
 使用:
 ```
-docker run -d /home:/mnt -it docker.io/schnauzers/vim tail -f /dev/null
+docker run -d /home:/mnt -it docker.io/juandx/vim tail -f /dev/null
 docker exec -it docker.io/schnauzers/vim bash
 ```
