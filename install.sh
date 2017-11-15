@@ -31,6 +31,7 @@ cd /home && echo 'py3' >> .python-version
 # 用vundle管理vim插件
 echo "-->download vundle to manage vim plugins..."
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+cp -r ~/molokai ~/.vim/bundle
 
 # 安装vim插件
 echo "-->install vim plugins..."

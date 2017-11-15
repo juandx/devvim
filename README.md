@@ -15,9 +15,10 @@ chmod +x install.sh
 ./build.sh
 ```
 
-使用:
+然后可以自己去push或者tag，接下来可以用了
 ```
 # mount host's you_code_dir to container's mnt
-docker run -d -v /you_code_dir:/mnt -it docker.io/juandx/vim tail -f /dev/null
-docker exec -it docker.io/schnauzers/vim bash
+docker pull docker.io/juandx/vim:1.0
+docker run -d -v /you_code_dir:/mnt -it docker.io/juandx/vim:1.0 tail -f /dev/null
+docker exec -it your_vim_container_id /bin/bash
 ```
